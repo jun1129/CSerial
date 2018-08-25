@@ -1,0 +1,46 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CSerial - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"..\tmp/CSerial.res" /d "_DEBUG" /d "_AFXDLL" "G:\Project\2016\通用库\CSerial\CSerial.rc"" 
+Creating temporary file "C:\Users\derek.nie\AppData\Local\Temp\RSPAECA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\_lib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CSERIAL_LIB" /D "_WINDLL" /D "_AFXDLL" /FR"..\tmp/" /Fp"..\tmp/CSerial.pch" /Yu"stdafx.h" /Fo"..\tmp/" /Fd"..\tmp/" /FD /GZ /c 
+"G:\Project\2016\通用库\CSerial\CSerial.cpp"
+]
+Creating command line "cl.exe @C:\Users\derek.nie\AppData\Local\Temp\RSPAECA.tmp" 
+Creating temporary file "C:\Users\derek.nie\AppData\Local\Temp\RSPAECB.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\_lib" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "CSERIAL_LIB" /D "_WINDLL" /D "_AFXDLL" /FR"..\tmp/" /Fp"..\tmp/CSerial.pch" /Yc"stdafx.h" /Fo"..\tmp/" /Fd"..\tmp/" /FD /GZ /c 
+"G:\Project\2016\通用库\CSerial\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\derek.nie\AppData\Local\Temp\RSPAECB.tmp" 
+Creating temporary file "C:\Users\derek.nie\AppData\Local\Temp\RSPAECC.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:yes /pdb:"..\lib/CSerial.pdb" /debug /machine:I386 /def:".\CSerial.def" /out:"..\MainBin\CSerial.dll" /implib:"..\lib/CSerial.lib" /pdbtype:sept /libpath:"../../../Product/_lib" 
+"\Project\2016\通用库\tmp\CSerial.obj"
+"\Project\2016\通用库\tmp\StdAfx.obj"
+"\Project\2016\通用库\tmp\CSerial.res"
+]
+Creating command line "link.exe @C:\Users\derek.nie\AppData\Local\Temp\RSPAECC.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+CSerial.cpp
+G:\Project\2016\通用库\CSerial\CSerial.cpp(349) : warning C4101: 'nInCount' : unreferenced local variable
+Linking...
+   Creating library ..\lib/CSerial.lib and object ..\lib/CSerial.exp
+
+
+
+<h3>Results</h3>
+CSerial.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
